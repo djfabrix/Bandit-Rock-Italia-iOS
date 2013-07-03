@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="lel-PP-eC2">
+    <dependencies>
+        <deployment version="1792" defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
+    </dependencies>
+    <scenes>
+        <!--Test View Controller-->
+        <scene sceneID="D1R-CX-CNf">
+            <objects>
+                <viewController id="Z3i-fs-e7x" customClass="TestViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Woq-IU-mxc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OiE-0M-QY5">
+                                <rect key="frame" x="87" y="101" width="0.0" height="0.0"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hy-eB-YEL">
+                                <rect key="frame" x="152" y="25" width="33" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="1Kw-e8-czL"/>
+                    <connections>
+                        <outlet property="artworkImageView" destination="OiE-0M-QY5" id="aeK-dY-jSJ"/>
+                        <outlet property="collectionNameLabel" destination="4hy-eB-YEL" id="csg-nG-ata"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DSB-dz-x2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644" y="527"/>
+        </scene>
+        <!--Streaming View Controller - Bandit Rock Italia-->
+        <scene sceneID="bpQ-BT-xHT">
+            <objects>
+                <viewController id="H89-2Q-ZbE" customClass="StreamingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wZf-br-66T" userLabel="MainView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lf-2b-NTn">
+                                <rect key="frame" x="0.0" y="411" width="320" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buffering .." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGH-35-eez">
+                                        <rect key="frame" x="38" y="2" width="253" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Pj-3b-arV">
+                                <rect key="frame" x="19" y="28" width="281" height="16"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bandit-italia.png" translatesAutoresizingMaskIntoConstraints="NO" id="26Y-dc-Mel">
+                                <rect key="frame" x="-78" y="115" width="474" height="232"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSo-bd-ILr">
+                                <rect key="frame" x="126" y="333" width="68" height="66"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="play.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="H89-2Q-ZbE" eventType="touchUpInside" id="gpl-fI-4Gg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xNB-5f-at6">
+                                <rect key="frame" x="20" y="52" width="100" height="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ObX-e7-dDa">
+                                <rect key="frame" x="278" y="52" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToITunes:" destination="H89-2Q-ZbE" eventType="touchUpInside" id="ocw-r2-sa8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pattern-metal.png" translatesAutoresizingMaskIntoConstraints="NO" id="Csu-ul-0cf" userLabel="Top Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pattern-metal.png" translatesAutoresizingMaskIntoConstraints="NO" id="qEx-4m-RNw" userLabel="Bottom Image View">
+                                <rect key="frame" x="0.0" y="224" width="320" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Bandit Rock Italia" id="Cmh-eh-ui6"/>
+                    <connections>
+                        <outlet property="artworkImageView" destination="xNB-5f-at6" id="7sm-ud-IfS"/>
+                        <outlet property="bottomImageView" destination="qEx-4m-RNw" id="80J-u9-gRu"/>
+                        <outlet property="itunesButton" destination="ObX-e7-dDa" id="yna-nZ-MV9"/>
+                        <outlet property="loadStateLabel" destination="YGH-35-eez" id="hmu-59-XkQ"/>
+                        <outlet property="loadStateView" destination="0lf-2b-NTn" id="UqM-Gd-8pQ"/>
+                        <outlet property="playStopButton" destination="YSo-bd-ILr" id="n9R-P1-Vav"/>
+                        <outlet property="songTitle" destination="0Pj-3b-arV" id="bDR-1S-8Yf"/>
+                        <outlet property="topImageView" destination="Csu-ul-0cf" id="2na-7v-aqo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z2j-5R-3ac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="559" y="-350"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rYM-Q8-FE8">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="lel-PP-eC2" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="aJ5-cH-H4Q">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="H89-2Q-ZbE" kind="relationship" relationship="viewControllers" id="Dte-dK-pbW"/>
+                        <segue destination="Z3i-fs-e7x" kind="relationship" relationship="viewControllers" id="kNQ-Wt-41k"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXK-1i-tp9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25" y="-23"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bandit-italia.png" width="705" height="344"/>
+        <image name="pattern-metal.png" width="960" height="600"/>
+        <image name="play.png" width="99" height="98"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

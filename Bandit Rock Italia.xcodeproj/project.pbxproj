@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1C1A5C1768C580008A1A32 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1C1A5B1768C580008A1A32 /* AVFoundation.framework */; };
+		BE1C1A5E1768C599008A1A32 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1C1A5D1768C599008A1A32 /* MediaPlayer.framework */; };
+		BE1C1A601768C849008A1A32 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1C1A5F1768C849008A1A32 /* AudioToolbox.framework */; };
+		BE2361C71769D69E00CE808E /* bandit-italia.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2361C61769D69E00CE808E /* bandit-italia.png */; };
+		BE2361CA1769F3BC00CE808E /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2361C81769F3BC00CE808E /* pause.png */; };
+		BE2361CB1769F3BC00CE808E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2361C91769F3BC00CE808E /* play.png */; };
+		BE2361CF176A01E500CE808E /* Constants.h in Sources */ = {isa = PBXBuildFile; fileRef = BE2361CD176A00EC00CE808E /* Constants.h */; };
+		BE2361D0176A01E500CE808E /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2361CE176A00EC00CE808E /* Constants.m */; };
+		BE2361D8176B668100CE808E /* volbeat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE2361D7176B668100CE808E /* volbeat.jpg */; };
+		BE3E2C96176B6E82003D086B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3E2C95176B6E82003D086B /* TestViewController.m */; };
+		BE5CB8041772F54200E86CC0 /* MediaInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5CB8031772F54200E86CC0 /* MediaInfoView.m */; };
+		BE5CB8071773031500E86CC0 /* pattern-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = BE5CB8061773031500E86CC0 /* pattern-metal.png */; };
+		BE68FDDF176F525400337280 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE68FDDE176F525400337280 /* StoreKit.framework */; };
+		BE9136651768BD1A00380CFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9136641768BD1A00380CFE /* UIKit.framework */; };
+		BE9136671768BD1A00380CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9136661768BD1A00380CFE /* Foundation.framework */; };
+		BE9136691768BD1A00380CFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9136681768BD1A00380CFE /* CoreGraphics.framework */; };
+		BE91366F1768BD1B00380CFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE91366D1768BD1B00380CFE /* InfoPlist.strings */; };
+		BE9136711768BD1B00380CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9136701768BD1B00380CFE /* main.m */; };
+		BE9136751768BD1B00380CFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9136741768BD1B00380CFE /* AppDelegate.m */; };
+		BE9136771768BD1B00380CFE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9136761768BD1B00380CFE /* Default.png */; };
+		BE9136791768BD1B00380CFE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9136781768BD1B00380CFE /* Default@2x.png */; };
+		BE91367B1768BD1B00380CFE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE91367A1768BD1B00380CFE /* Default-568h@2x.png */; };
+		BE9136821768BD5100380CFE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9136811768BD5100380CFE /* Storyboard.storyboard */; };
+		BE9136851768C02C00380CFE /* StreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9136841768C02C00380CFE /* StreamingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE1C1A5B1768C580008A1A32 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BE1C1A5D1768C599008A1A32 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BE1C1A5F1768C849008A1A32 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BE2361C61769D69E00CE808E /* bandit-italia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bandit-italia.png"; sourceTree = "<group>"; };
+		BE2361C81769F3BC00CE808E /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		BE2361C91769F3BC00CE808E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		BE2361CD176A00EC00CE808E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BE2361CE176A00EC00CE808E /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BE2361D7176B668100CE808E /* volbeat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volbeat.jpg; sourceTree = "<group>"; };
+		BE3E2C94176B6E82003D086B /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BE3E2C95176B6E82003D086B /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BE5CB8021772F54200E86CC0 /* MediaInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaInfoView.h; sourceTree = "<group>"; };
+		BE5CB8031772F54200E86CC0 /* MediaInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaInfoView.m; sourceTree = "<group>"; };
+		BE5CB8061773031500E86CC0 /* pattern-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pattern-metal.png"; sourceTree = "<group>"; };
+		BE68FDDE176F525400337280 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BE9136611768BD1A00380CFE /* Bandit Rock Italia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bandit Rock Italia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9136641768BD1A00380CFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE9136661768BD1A00380CFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE9136681768BD1A00380CFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE91366C1768BD1B00380CFE /* Bandit Rock Italia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bandit Rock Italia-Info.plist"; sourceTree = "<group>"; };
+		BE91366E1768BD1B00380CFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE9136701768BD1B00380CFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE9136721768BD1B00380CFE /* Bandit Rock Italia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bandit Rock Italia-Prefix.pch"; sourceTree = "<group>"; };
+		BE9136731768BD1B00380CFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE9136741768BD1B00380CFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE9136761768BD1B00380CFE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE9136781768BD1B00380CFE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE91367A1768BD1B00380CFE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE9136811768BD5100380CFE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		BE9136831768C02C00380CFE /* StreamingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamingViewController.h; sourceTree = "<group>"; };
+		BE9136841768C02C00380CFE /* StreamingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE91365E1768BD1A00380CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE68FDDF176F525400337280 /* StoreKit.framework in Frameworks */,
+				BE1C1A601768C849008A1A32 /* AudioToolbox.framework in Frameworks */,
+				BE1C1A5E1768C599008A1A32 /* MediaPlayer.framework in Frameworks */,
+				BE1C1A5C1768C580008A1A32 /* AVFoundation.framework in Frameworks */,
+				BE9136651768BD1A00380CFE /* UIKit.framework in Frameworks */,
+				BE9136671768BD1A00380CFE /* Foundation.framework in Frameworks */,
+				BE9136691768BD1A00380CFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE5CB805177302F300E86CC0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE5CB8061773031500E86CC0 /* pattern-metal.png */,
+				BE2361D7176B668100CE808E /* volbeat.jpg */,
+				BE2361C91769F3BC00CE808E /* play.png */,
+				BE2361C81769F3BC00CE808E /* pause.png */,
+				BE2361C61769D69E00CE808E /* bandit-italia.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BE9136581768BD1A00380CFE = {
+			isa = PBXGroup;
+			children = (
+				BE1C1A5F1768C849008A1A32 /* AudioToolbox.framework */,
+				BE1C1A5D1768C599008A1A32 /* MediaPlayer.framework */,
+				BE1C1A5B1768C580008A1A32 /* AVFoundation.framework */,
+				BE91366A1768BD1A00380CFE /* Bandit Rock Italia */,
+				BE9136631768BD1A00380CFE /* Frameworks */,
+				BE9136621768BD1A00380CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE9136621768BD1A00380CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE9136611768BD1A00380CFE /* Bandit Rock Italia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE9136631768BD1A00380CFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE68FDDE176F525400337280 /* StoreKit.framework */,
+				BE9136641768BD1A00380CFE /* UIKit.framework */,
+				BE9136661768BD1A00380CFE /* Foundation.framework */,
+				BE9136681768BD1A00380CFE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE91366A1768BD1A00380CFE /* Bandit Rock Italia */ = {
+			isa = PBXGroup;
+			children = (
+				BE9136811768BD5100380CFE /* Storyboard.storyboard */,
+				BE9136731768BD1B00380CFE /* AppDelegate.h */,
+				BE9136741768BD1B00380CFE /* AppDelegate.m */,
+				BE9136831768C02C00380CFE /* StreamingViewController.h */,
+				BE9136841768C02C00380CFE /* StreamingViewController.m */,
+				BE91366B1768BD1B00380CFE /* Supporting Files */,
+				BE2361CD176A00EC00CE808E /* Constants.h */,
+				BE2361CE176A00EC00CE808E /* Constants.m */,
+				BE3E2C94176B6E82003D086B /* TestViewController.h */,
+				BE3E2C95176B6E82003D086B /* TestViewController.m */,
+				BE5CB8021772F54200E86CC0 /* MediaInfoView.h */,
+				BE5CB8031772F54200E86CC0 /* MediaInfoView.m */,
+				BE5CB805177302F300E86CC0 /* Images */,
+			);
+			path = "Bandit Rock Italia";
+			sourceTree = "<group>";
+		};
+		BE91366B1768BD1B00380CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE91366C1768BD1B00380CFE /* Bandit Rock Italia-Info.plist */,
+				BE91366D1768BD1B00380CFE /* InfoPlist.strings */,
+				BE9136701768BD1B00380CFE /* main.m */,
+				BE9136721768BD1B00380CFE /* Bandit Rock Italia-Prefix.pch */,
+				BE9136761768BD1B00380CFE /* Default.png */,
+				BE9136781768BD1B00380CFE /* Default@2x.png */,
+				BE91367A1768BD1B00380CFE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE9136601768BD1A00380CFE /* Bandit Rock Italia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE91367E1768BD1B00380CFE /* Build configuration list for PBXNativeTarget "Bandit Rock Italia" */;
+			buildPhases = (
+				BE91365D1768BD1A00380CFE /* Sources */,
+				BE91365E1768BD1A00380CFE /* Frameworks */,
+				BE91365F1768BD1A00380CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bandit Rock Italia";
+			productName = "Bandit Rock Italia";
+			productReference = BE9136611768BD1A00380CFE /* Bandit Rock Italia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE9136591768BD1A00380CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fabrizio Riccardo";
+			};
+			buildConfigurationList = BE91365C1768BD1A00380CFE /* Build configuration list for PBXProject "Bandit Rock Italia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE9136581768BD1A00380CFE;
+			productRefGroup = BE9136621768BD1A00380CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE9136601768BD1A00380CFE /* Bandit Rock Italia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE91365F1768BD1A00380CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5CB8071773031500E86CC0 /* pattern-metal.png in Resources */,
+				BE91366F1768BD1B00380CFE /* InfoPlist.strings in Resources */,
+				BE2361CB1769F3BC00CE808E /* play.png in Resources */,
+				BE2361C71769D69E00CE808E /* bandit-italia.png in Resources */,
+				BE2361D8176B668100CE808E /* volbeat.jpg in Resources */,
+				BE9136771768BD1B00380CFE /* Default.png in Resources */,
+				BE2361CA1769F3BC00CE808E /* pause.png in Resources */,
+				BE9136791768BD1B00380CFE /* Default@2x.png in Resources */,
+				BE91367B1768BD1B00380CFE /* Default-568h@2x.png in Resources */,
+				BE9136821768BD5100380CFE /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE91365D1768BD1A00380CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3E2C96176B6E82003D086B /* TestViewController.m in Sources */,
+				BE2361CF176A01E500CE808E /* Constants.h in Sources */,
+				BE2361D0176A01E500CE808E /* Constants.m in Sources */,
+				BE5CB8041772F54200E86CC0 /* MediaInfoView.m in Sources */,
+				BE9136711768BD1B00380CFE /* main.m in Sources */,
+				BE9136751768BD1B00380CFE /* AppDelegate.m in Sources */,
+				BE9136851768C02C00380CFE /* StreamingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE91366D1768BD1B00380CFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE91366E1768BD1B00380CFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE91367C1768BD1B00380CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE91367D1768BD1B00380CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE91367F1768BD1B00380CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roberto Leonardi (S2RGWX87B8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bandit Rock Italia/Bandit Rock Italia-Prefix.pch";
+				INFOPLIST_FILE = "Bandit Rock Italia/Bandit Rock Italia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE9136801768BD1B00380CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Roberto Leonardi (S2RGWX87B8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bandit Rock Italia/Bandit Rock Italia-Prefix.pch";
+				INFOPLIST_FILE = "Bandit Rock Italia/Bandit Rock Italia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE91365C1768BD1A00380CFE /* Build configuration list for PBXProject "Bandit Rock Italia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE91367C1768BD1B00380CFE /* Debug */,
+				BE91367D1768BD1B00380CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE91367E1768BD1B00380CFE /* Build configuration list for PBXNativeTarget "Bandit Rock Italia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE91367F1768BD1B00380CFE /* Debug */,
+				BE9136801768BD1B00380CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE9136591768BD1A00380CFE /* Project object */;
+}
